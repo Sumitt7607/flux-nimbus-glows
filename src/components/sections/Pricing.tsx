@@ -56,7 +56,7 @@ export function Pricing() {
       <div className="pointer-events-none absolute inset-x-0 top-1/3 h-96 bg-gradient-hero opacity-50" />
       <FloatingSticker kind="asterisk" className="left-[5%] top-20 h-14 w-14 sm:h-20 sm:w-20" />
       <FloatingSticker kind="squiggle" delay={0.15} className="right-[7%] top-32 h-12 w-12 sm:h-16 sm:w-16" />
-      <FloatingSticker kind="pinwheel" delay={0.25} className="bottom-20 right-[10%] hidden h-12 w-12 sm:block" />
+      <FloatingSticker kind="pinwheel" delay={0.25} className="bottom-20 right-[10%] h-12 w-12" />
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
           <Reveal>

@@ -29,7 +29,7 @@ export function WhyChooseUs() {
   return (
     <section className="relative overflow-hidden py-24 sm:py-32">
       <FloatingSticker kind="squiggle" className="right-[8%] top-20 h-14 w-14 sm:h-20 sm:w-20" />
-      <FloatingSticker kind="clover" delay={0.15} className="bottom-32 left-[5%] hidden h-12 w-12 sm:block" />
+      <FloatingSticker kind="clover" delay={0.15} className="bottom-32 left-[5%] h-12 w-12" />
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-16 lg:grid-cols-[1fr_1.4fr] lg:gap-20">
           <div className="lg:sticky lg:top-32 lg:self-start">

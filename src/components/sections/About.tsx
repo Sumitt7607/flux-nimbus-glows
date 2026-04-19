@@ -41,7 +41,7 @@ export function About() {
   return (
     <section id="about" className="relative overflow-hidden py-24 sm:py-32">
       <FloatingSticker kind="clover" className="right-[8%] top-16 h-12 w-12 sm:h-16 sm:w-16" />
-      <FloatingSticker kind="squiggle" delay={0.1} className="bottom-20 left-[6%] hidden h-14 w-14 sm:block" />
+      <FloatingSticker kind="squiggle" delay={0.1} className="bottom-20 left-[6%] h-14 w-14" />
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
           <div>

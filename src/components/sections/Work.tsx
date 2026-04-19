@@ -37,7 +37,7 @@ export function Work() {
   return (
     <section id="work" className="relative overflow-hidden py-24 sm:py-32">
       <FloatingSticker kind="pinwheel" className="right-[5%] top-16 h-14 w-14 sm:h-20 sm:w-20" />
-      <FloatingSticker kind="clover" delay={0.15} className="bottom-24 right-[8%] hidden h-12 w-12 sm:block" />
+      <FloatingSticker kind="clover" delay={0.15} className="bottom-24 right-[8%] h-12 w-12" />
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>

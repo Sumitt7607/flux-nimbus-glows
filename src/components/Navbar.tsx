@@ -58,7 +58,9 @@ export function Navbar() {
         <div className="hidden md:block">
           <MagneticButton>
             <a
-              href="#contact"
+              href="https://wa.me/917607696315"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-gradient-neon px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-shadow hover:glow-neon"
             >
               Contact
@@ -96,7 +98,9 @@ export function Navbar() {
               </li>
             ))}
             <a
-              href="#contact"
+              href="https://wa.me/917607696315"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-neon px-5 py-3 text-sm font-semibold text-primary-foreground"
             >

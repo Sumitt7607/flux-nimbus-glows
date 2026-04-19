@@ -300,7 +300,7 @@ export function Hero() {
 
       <motion.div
         style={{ y: y2 }}
-        className="pointer-events-none absolute bottom-[14%] left-[6%] hidden h-12 w-12 opacity-90 sm:block sm:h-14 sm:w-14"
+        className="pointer-events-none absolute bottom-[14%] left-[6%] h-12 w-12 opacity-90 sm:h-14 sm:w-14"
         initial={{ opacity: 0, scale: 0, rotate: 60 }}
         animate={{ opacity: 1, scale: 1, rotate: 0 }}
         transition={{ delay: 1.1, type: "spring", stiffness: 200, damping: 14 }}
@@ -342,7 +342,7 @@ export function Hero() {
         <h1
           className="font-display font-bold tracking-tight text-foreground"
           style={{
-            fontSize: "clamp(3rem, 14vw, 11rem)",
+            fontSize: "clamp(4.5rem, 16vw, 11rem)",
             lineHeight: 0.95,
             letterSpacing: "-0.04em",
           }}
@@ -366,7 +366,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.6, duration: 0.8 }}
-          className="mx-auto mt-8 max-w-2xl text-balance px-2 text-sm text-foreground/65 sm:mt-10 sm:text-base md:text-lg"
+          className="mx-auto mt-8 max-w-2xl text-balance px-2 text-base text-foreground/65 sm:mt-10 sm:text-lg md:text-xl"
         >
           We craft motion-rich digital experiences that turn attention into
           revenue — websites, apps, brands, and growth systems engineered to
@@ -382,7 +382,9 @@ export function Hero() {
         >
           <MagneticButton>
             <a
-              href="#contact"
+              href="https://wa.me/917607696315"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3.5 text-sm font-semibold text-background transition-all hover:bg-foreground/90 sm:px-7 sm:py-4"
             >
               Get Started

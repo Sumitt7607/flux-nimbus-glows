@@ -29,7 +29,7 @@ export function Services() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-hero opacity-50" />
       <FloatingSticker kind="pinwheel" className="left-[5%] top-24 h-14 w-14 sm:h-20 sm:w-20" />
       <FloatingSticker kind="bolt" delay={0.15} className="right-[6%] top-48 h-12 w-12 sm:h-16 sm:w-16" />
-      <FloatingSticker kind="asterisk" delay={0.25} className="bottom-24 left-[8%] hidden h-14 w-14 sm:block" />
+      <FloatingSticker kind="asterisk" delay={0.25} className="bottom-24 left-[8%] h-14 w-14" />
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="mb-16 flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
@@ -58,9 +58,12 @@ export function Services() {
             const Icon = s.icon;
             return (
               <Reveal key={s.title} delay={(i % 4) * 0.08}>
-                <div
+                <a
+                  href="https://wa.me/917607696315"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   data-cursor-hover
-                  className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card/40 p-6 transition-all duration-500 hover:-translate-y-2 hover:border-primary/50 hover:shadow-[0_30px_60px_-20px_oklch(0.88_0.24_148/0.35)]"
+                  className="group relative block h-full overflow-hidden rounded-2xl border border-border bg-card/40 p-6 transition-all duration-500 hover:-translate-y-2 hover:border-primary/50 hover:shadow-[0_30px_60px_-20px_oklch(0.88_0.24_148/0.35)]"
                 >
                   {/* Hover glow */}
                   <div className="absolute -inset-px -z-10 rounded-2xl opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-30 bg-gradient-mix" />
@@ -76,7 +79,7 @@ export function Services() {
                   <p className="mt-2 text-sm text-foreground/60">{s.desc}</p>
 
                   <div className="mt-6 h-px w-full origin-left scale-x-0 bg-gradient-neon transition-transform duration-500 group-hover:scale-x-100" />
-                </div>
+                </a>
               </Reveal>
             );
           })}

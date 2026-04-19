@@ -1,10 +1,10 @@
 import { AtSign, Camera, Briefcase, Code, Zap } from "lucide-react";
 
 const socials = [
-  { icon: AtSign, href: "#", label: "Twitter" },
+  // { icon: AtSign, href: "#", label: "Twitter" },
   { icon: Camera, href: "#", label: "Instagram" },
   { icon: Briefcase, href: "#", label: "LinkedIn" },
-  { icon: Code, href: "#", label: "GitHub" },
+  { icon: Code, href: "#", label: "Facebook" },
 ];
 
 const cols = [
@@ -29,11 +29,11 @@ export function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_2fr]">
           <div>
             <div className="flex items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-neon glow-neon">
+              {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-neon glow-neon">
                 <Zap className="h-5 w-5 text-primary-foreground" strokeWidth={2.5} />
-              </div>
+              </div> */}
               <span className="font-display text-xl font-bold tracking-tight">
-                Nex<span className="text-gradient-neon">core</span>
+                Nex<span className="text-gradient">core Technologies</span>
               </span>
             </div>
             <p className="mt-5 max-w-sm text-sm text-foreground/60">
@@ -83,7 +83,7 @@ export function Footer() {
         {/* Big wordmark */}
         <div className="my-16 select-none overflow-hidden">
           <div className="font-display text-[18vw] font-bold leading-none tracking-tighter text-transparent [-webkit-text-stroke:1px_oklch(0.88_0.24_148/0.3)] md:text-[14rem]">
-            NEXCORE
+             NEXCORE 
           </div>
         </div>
 

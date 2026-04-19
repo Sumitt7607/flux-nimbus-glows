@@ -33,7 +33,7 @@ export function Process() {
   return (
     <section id="process" className="relative overflow-hidden py-24 sm:py-32">
       <FloatingSticker kind="bolt" className="right-[6%] top-20 h-12 w-12 sm:h-16 sm:w-16" />
-      <FloatingSticker kind="clover" delay={0.15} className="bottom-24 left-[5%] hidden h-14 w-14 sm:block" />
+      <FloatingSticker kind="clover" delay={0.15} className="bottom-24 left-[5%] h-14 w-14" />
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 max-w-2xl">
           <Reveal>
